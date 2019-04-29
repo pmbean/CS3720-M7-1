@@ -12,6 +12,8 @@
 		EF324E5722766B1C00E470B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF324E5522766B1C00E470B6 /* Main.storyboard */; };
 		EF324E5922766B1E00E470B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF324E5822766B1E00E470B6 /* Assets.xcassets */; };
 		EF324E5C22766B1E00E470B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF324E5A22766B1E00E470B6 /* LaunchScreen.storyboard */; };
+		EF324E6422766CE300E470B6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF324E6322766CE300E470B6 /* logo.png */; };
+		EF324E6622768B1500E470B6 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF324E6522768B1500E470B6 /* TextToSpeech.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EF324E5822766B1E00E470B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF324E5B22766B1E00E470B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF324E5D22766B1E00E470B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF324E6322766CE300E470B6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EF324E6522768B1500E470B6 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		EF324E5022766B1C00E470B6 /* SayMyName */ = {
 			isa = PBXGroup;
 			children = (
+				EF324E6322766CE300E470B6 /* logo.png */,
 				EF324E5122766B1C00E470B6 /* AppDelegate.swift */,
 				EF324E5322766B1C00E470B6 /* ViewController.swift */,
+				EF324E6522768B1500E470B6 /* TextToSpeech.swift */,
 				EF324E5522766B1C00E470B6 /* Main.storyboard */,
 				EF324E5822766B1E00E470B6 /* Assets.xcassets */,
 				EF324E5A22766B1E00E470B6 /* LaunchScreen.storyboard */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF324E6422766CE300E470B6 /* logo.png in Resources */,
 				EF324E5C22766B1E00E470B6 /* LaunchScreen.storyboard in Resources */,
 				EF324E5922766B1E00E470B6 /* Assets.xcassets in Resources */,
 				EF324E5722766B1C00E470B6 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF324E5422766B1C00E470B6 /* ViewController.swift in Sources */,
+				EF324E6622768B1500E470B6 /* TextToSpeech.swift in Sources */,
 				EF324E5222766B1C00E470B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thedevbean.SayMyName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thedevbean.SayMyName;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
